@@ -1,0 +1,34 @@
+body{
+    background-color: #90ee90;
+}
+.product_container{
+    margin: 0px auto;
+    width: fit-content;
+    display: flex;
+    margin-top: 10px;
+
+}
+.product_details{
+    width: 600px;
+    background-color: white;
+    height: 600px;
+    display: flex;
+}
+.product_image{
+    width: 300px;
+    background-color: black;
+    height: 500px;
+    position:relative;
+    /* top: 50px; */
+    bottom: 10%;
+    left: 30%;
+    margin-top: 7%;
+}
+.detail_first{
+    flex: 0.5;
+    background-color: aqua;
+}
+.detail_second{
+    flex: 0.5;
+    background-color: blue;
+}

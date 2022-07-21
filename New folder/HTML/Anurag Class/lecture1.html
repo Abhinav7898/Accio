@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Registration Form</title>
+    
+</head>
+<body>
+        <!-- <form action="www.google.com" method="get"> Back end part method,form
+            <input type="text" name="name" id="name">
+            <button type="submit">Submit</button>
+        </form> -->
+
+        <div>
+            <center>
+                <form action="/lecture1.html" method="get"> <!-- Method = "GET" "POST"-->
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Add your Name" required="true">
+                    <br>
+                    <br>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <br>
+                    <br>
+                    <label for="phone">Phone: </label>
+                    <input type="tel" name="phone" id="phone" placeholder="Mob. Number">
+                    <br>
+                    <br>
+                    <label for="date">Date Of Birth: </label>
+                    <input type="date" name="date" id="date">
+                    <!-- <input type="datetime" name="date" id="date"> -->
+                    <!-- <input type="datetime-local" name="date" id="date"> -->
+                    <br>
+                    <br>
+                    <label for="gender">Gender</label>
+                    <input type="radio" name="gender" id="gender" checked = "true" value="male">Male
+                    <input type="radio" name="gender" id="gender" value="female">Female
+                    <input type="radio" name="gender" id="gender"value="other">Other
+                    <br>
+                    <br>
+                    <label for="address">Address</label>
+                    <textarea name="address" id="address" cols="30" rows="3"></textarea>
+                    <br>
+                    <br>
+                    <label for="hobbies">Hobbies: </label>
+                    <input type="checkbox" name="hobbies" id="hobbies">
+                    <label for="reading">Reading </label>
+                    <input type="checkbox" name="hobbies" id="hobbies">
+                    <label for="dancing">Dancing </label>
+                    <input type="checkbox" name="hobbies" id="hobbies">
+                    <label for="playing">Playing </label>
+                    <input type="checkbox" name="hobbies" id="hobbies">
+                    <label for="singing">Singing </label>
+                    <br><br>
+                    <label for="course">Course</label>
+                    <select name="course" id="course">
+                        <option value="CSE">CSE</option>
+                        <option value="IIT">IIT</option>
+                        <option value="ECE">ECE</option>
+                    </select>
+                    <br><br>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </center>
+        </div>
+</body>
+</html>

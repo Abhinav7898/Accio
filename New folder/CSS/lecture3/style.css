@@ -1,0 +1,31 @@
+body{
+    background-size: cover;
+    background-image: url(/img/avenger.jpg);
+}
+.container{
+    background-color: #444444;
+    opacity: 0.9;
+    width: 70%;
+    /* margin: 0px auto 0px auto; */
+    margin: 10px auto; /* top right bottom left*/
+    padding: 5%;
+}
+.heading_txt{
+    margin-top: 5px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.images{
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 35px;
+}
+.images:hover{
+    transform: scale(1.3);
+    transition:ease-in;
+    opacity: 0.5;
+    /* transform: rotateX(180deg); */
+}

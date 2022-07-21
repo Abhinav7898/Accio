@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.red{
+    background-color: red;
+    height: 344px;
+    color: yellow;
+}
+.green{
+    background-color: green;
+    color: rgb(24, 35, 192);
+}
+body{
+    /* background-image: url('img.jpg');
+    background-repeat: no-repeat; 
+    background-size: contain; */
+    /* repeat-x  repeat-y */
+}
+.container{
+    width: 334px;
+    height: 1550px;
+    border:  2px solid red;
+    background-image: url('img.jpg');
+    background-repeat: no-repeat; 
+    /* background-size: 63px 45px; contain,    cover,  auto,   (widht height) */
+    /* background-position: top center; */
+    background-attachment: fixed; /*  */
+}

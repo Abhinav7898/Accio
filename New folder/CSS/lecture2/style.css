@@ -1,0 +1,32 @@
+/* div p{
+    color: blue;
+    font-style: italic;
+    font-size: xx-large;
+} */
+/* div > p{
+    color: green;
+} */
+/* div + p{
+    color: red;
+} */
+/* div ~ p{
+    color: orange;
+} */
+p:hover{
+    color:blue;
+    font-size: large;
+    transform: scale(1);
+}
+a:link{
+    color: red;
+    font-size: small;
+}
+a:visited{
+    color: green;
+    text-decoration: none;
+    font-size: large;
+
+}
+input:focus{
+    background-color: blue;
+}

@@ -1,0 +1,16 @@
+div::first-letter{
+    font-size: 500%;
+    color: red;
+}
+div::first-line{
+    color: blue;
+}
+input::placeholder{
+    font-size: larger;
+    color: red;
+}
+/* Selector */
+p.myclass:first-child span{
+    color:chartreuse;
+    font-size: large;
+}

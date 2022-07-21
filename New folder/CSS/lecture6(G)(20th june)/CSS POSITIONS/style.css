@@ -1,0 +1,39 @@
+.box{
+    width: 100px;
+    height: 150px;
+
+    border: 1px solid grey;
+    margin: 10px;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+    position: relative;
+    left: 105px;
+    top: -110px;
+}
+.blue{
+    background-color: blue;
+    position: absolute;
+    top: 150px;
+}
+.yellow{
+    background-color: yellow;
+}
+.purple{
+    background-color: purple;
+    left: 150px;
+}
+.fixed{
+    position: fixed;
+}
+.sticky{
+    position: sticky;
+    top: 0px;
+}
+div:nth-child(odd){
+    position: relative;
+    left: 200px;
+}
