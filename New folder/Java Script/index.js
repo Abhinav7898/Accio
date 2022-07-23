@@ -112,7 +112,7 @@ At a very high level, there are two types of data types in JS
 
     // Loops in JS
 // 1st way using for loop
-// var arr = [1,2,3,4,5,6];
+var arr = [1,2,3,4,5,6];
 // var n = arr.length;
 // for(var i=0;i<n;i++){
 //     console.log(arr[i]);
@@ -124,4 +124,83 @@ At a very high level, there are two types of data types in JS
 // })
 
 // 3rd way using while loop
+    // let j = 0;
+    // while(j<arr.length){
+    //     console.log(arr[j]);
+    //     j++;
+    // }
+// 4th way using do while loop
+// let j = 0;
+// do{
+//     console.log(arr[j]);
+//     j++;
+// }
+//     while(j<arr.length);
 
+// break and continue
+// for(var i=0;i<arr.length;i++){
+//     if(i==2){
+//         // break;
+//         continue;
+//     }
+//     console.log(arr[i]);
+// }
+
+// Array Methods
+let myArr = ["Fan","Camera",34,null,true];
+// console.log(myArr.length);
+// myArr.pop();
+// myArr.push("Abhinav");
+// myArr.shift();
+// myArr.unshift("Abhinav");
+// const newLen = myArr.unshift("Abhinav");
+// console.log(newLen);
+// console.log(myArr.toString);
+// let arr1 = [5,4,3,2,1];
+// console.log(arr1.sort);
+// console.log(myArr);
+
+// String Methods
+// let str = "Abhinav is a good boy good";
+// console.log(str.length);
+// console.log(str.indexOf("is"));
+// console.log(str.lastIndexOf("good"));
+// console.log(str.slice(0,7));
+// d = str.replace("Abhinav","Abhi");
+// console.log(d);
+// console.log(str, d);
+
+// Dates in js
+let myDate = new Date();
+// console.log(myDate.getTime());
+// console.log(myDate.getFullYear());
+// console.log(myDate.getDay()); // 0 means sun, 1 means mon and so on...
+// console.log(myDate.getDate());
+// console.log(myDate.getMonth());
+// console.log(myDate.getHours());
+// console.log(myDate.getMinutes());
+
+// DOM Manipulation - Document Object Model
+let elem = document.getElementById('click');
+// console.log(elem);
+let elemClass = document.getElementsByClassName("container");
+// console.log(elemClass);
+// elemClass[0].style.background = "yellow";
+// elemClass[0].classList.add("bg-primary")
+// elemClass[0].classList.add("text-success")
+// elemClass[0].classList.remove("text-success")
+// console.log(elem.innerHTML);
+// console.log(elem.innerText);
+// console.log(elemClass[0].innerHTML);
+// console.log(elemClass[0].innerText);
+// tn = document.getElementsByTagName('button');
+tn = document.getElementsByTagName('div');
+console.log(tn);
+// create
+createdElement = document.createElement('p');
+createdElement.innerText = "This is a created para"
+tn[0].appendChild(createdElement);
+// replace
+createdElement2 = document.createElement('b');
+createdElement2.innerText = "This is a created bold"
+tn[0].replaceChild(createdElement2,createdElement);
