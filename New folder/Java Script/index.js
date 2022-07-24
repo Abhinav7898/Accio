@@ -181,6 +181,7 @@ let myDate = new Date();
 // console.log(myDate.getMinutes());
 
 // DOM Manipulation - Document Object Model
+// (img)
 let elem = document.getElementById('click');
 // console.log(elem);
 let elemClass = document.getElementsByClassName("container");
@@ -194,13 +195,89 @@ let elemClass = document.getElementsByClassName("container");
 // console.log(elemClass[0].innerHTML);
 // console.log(elemClass[0].innerText);
 // tn = document.getElementsByTagName('button');
-tn = document.getElementsByTagName('div');
-console.log(tn);
+// tn = document.getElementsByTagName('div');
+// console.log(tn);
 // create
-createdElement = document.createElement('p');
-createdElement.innerText = "This is a created para"
-tn[0].appendChild(createdElement);
+// createdElement = document.createElement('p');
+// createdElement.innerText = "This is a created para"
+// tn[0].appendChild(createdElement);
 // replace
-createdElement2 = document.createElement('b');
-createdElement2.innerText = "This is a created bold"
-tn[0].replaceChild(createdElement2,createdElement);
+// createdElement2 = document.createElement('b');
+// createdElement2.innerText = "This is a created bold"
+// tn[0].replaceChild(createdElement2,createdElement);
+// query selector
+// sel = document.querySelector('.container');
+// console.log(sel);
+// sel = document.querySelectorAll('.container');
+// console.log(sel);
+
+// Events in JS
+// function clicked(){
+//     console.log('The button was clicked');
+// }
+// window.onload = function(){
+//     console.log('The document was loded');
+// }
+// Events in JS on click
+// firstContainer.addEventListener('click',function(){
+//     console.log("Button Clicked");
+// })
+// Events in JS on Mouse
+// firstContainer.addEventListener('mouseover',function(){
+//     console.log("Mouse on container");
+// })
+// firstContainer.addEventListener('mouseout',function(){
+//     console.log("Mouse on container");
+// })
+// firstContainer.addEventListener('mouseup',function(){
+//     console.log("Mouse up when clicked on container");
+// })
+// firstContainer.addEventListener('mousedown',function(){
+//     console.log("Mouse down when clicked container");
+// })
+// let preHTML = document.querySelectorAll('.container')[1].innerHTML;
+// firstContainer.addEventListener('mouseup',function(){
+//     document.querySelectorAll('.container')[1].innerHTML = preHTML;
+//     console.log("Mouse up when clicked on container");
+// })
+// firstContainer.addEventListener('mousedown',function(){
+//     document.querySelectorAll('.container')[1].innerHTML = "<b> we have clicked </b>"
+//     console.log("Mouse down when clicked container");
+// })
+
+// Arrow Function
+// function sum(a,b){
+//     return a+b;
+// }
+// sum = (a,b)=>{
+//     return a+b;
+// }
+// SetTimeout and setIntervals
+// logKaro =()=>{
+    // console.log("I am your log");
+    // document.querySelectorAll('.container')[1].innerHTML = "<b> we have clicked </b>"
+// }
+// clr = setTimeout(logKaro,2000); // 2000milisecond
+// clr = setInterval(logKaro,2000); // this will schedule the time
+// clearTimeout(clr);
+// clearInterval(clr); // to break the condition of interval or timeout
+
+// local storage
+// (img)
+// localStorage.setItem('name','Abhinav'); // key,value
+// localStorage
+// localStorage.getItem('name');
+// localStorage.clear();
+
+// JSON
+// obj = {name:"Abhinav",length:1,a:{this:'tha"t'}}
+// jso = JSON.stringify(obj);
+// console.log(typeof jso);
+// console.log(jso);
+// parsed = JSON.parse(`{"name":"Abhinav","length":1,"a":{"this":"that"}}`);
+// console.log(parsed);
+
+// Template literals - Backticks
+a = 34;
+console.log(`this is my ${a}`);
+
